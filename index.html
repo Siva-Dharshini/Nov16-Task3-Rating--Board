@@ -4,144 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Survey Form</title>
+    <title>Rating Board</title>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-    <style>
-       
-        body{
-            color:#384047;
-            background-color: #1f66a5;
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            margin: 100px 400px;
 
+    <style>
+        body{
+            margin:30px 100px;
+            color:rgb(249, 255, 255);
+            background-color: rgb(5, 166, 59);
         }
         form{
-            background-color: #c8e1ea;
+            background-color: rgb(26, 139, 13);
         }
-
-        button {
-            
-            background-color:mediumseagreen;
+        .decor{
+            text-decoration-line: ;
         }
-
+        .checked{
+            color:yellow;
+        }
     </style>
-    
 </head>
 <body>
-    <form action="" method="POST">
-        <legend><i class="fa fa-book"></i> Personal Bookworm - A Brief survey</legend>
-        <fieldset>
-            <table>
-                <tr>
-                    <td>
-                        <label for="">Name: </label>
-                    </td>
-                    <td>
-                        <input type="text" name="" id="">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                          <label for="">Birth Date:</label>
-                    </td>
-                    <td>
-                        <input type="date" name="" id="">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="">Email:</label>
-                    </td>
-                    <td>
-                        <input type="email" name="" id="">
-                    </td>
-                </tr>
-                <tr>
-                   <td>
-                    <label for="">Phone Number:</label>
-                   </td>
-                   <td>
-                    <input type="number" name="" id="">
-                   </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="">What is your favourite book?</label>
-                    </td>
-                    <td>
-                       <input type="text" name="" id=""> 
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="">What are some of the most recent books you have read?</label>
-                    </td>
-                    <td>
-                        <textarea name="" id="" ></textarea>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="">In a Year, how many books do you buy?</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-        <input type="checkbox" name="" id="">Less than 2 <br>
-        <input type="checkbox" name="" id="">Between 2-6 <br>
-        <input type="checkbox" name="" id="">Between 7-10 <br>
-        <input type="checkbox" name="" id="">More than 10
-       <br>
-       <br>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="">What is your preferred reading Medium?</label>
-                    </td>
-                </tr>
-            </table>
-    
-        <table>
-            <tr>
-                <td><input type="checkbox" name="" id="">Printed Books </td>
-                <td><input type="checkbox" name="" id="">Website</td>
-                <td><input type="checkbox" name="" id="">News Pappers</td>   
-            </tr>
-            <tr>
-                <td><input type="checkbox" name="" id="">Magazines </td>
-                <td><input type="checkbox" name="" id="">E-Book</td>
-                <td><input type="checkbox" name="" id="">Others</td>   
-            </tr>
-        </table>
-        <br>
-         
+    <div>
+        <form action="">
+            <legend align="center"><h1>Rating Board</h1></legend>
+            <fieldset>
+                <table>
+                    <h1>Rate your Experience</h1>
+                    <p>Are you satisfied with the service?</p>
+                    <tr>
+                        <td>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star checked"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Comment</label><br>
 
+                        </td>
+                        <td>
+                            <textarea name="" id=""></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+           
 
-        <label for=""> Write summary of your favourite book</label>
-        <br>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <br>
-        <label for="">How likely are you to recommend reading more books to your family and friends based on your overall experience?</label>
-        <br>
-        <input type="radio" name="" id="">1
-        <input type="radio" name="" id="">2
-        <input type="radio" name="" id="">3
-        <input type="radio" name="" id="">4
-        <input type="radio" name="" id="">5
-        <br>
-        <label for="">Additional Comments:</label>
-        <br>
-        <textarea name="" id=""></textarea>
-        <br>
-
-        <input class= "button" type="button" value="Submit">
-
+        </form>
         
-    </fieldset>
-
-    </form>
-  
-    
+    </div>
 </body>
 </html>
